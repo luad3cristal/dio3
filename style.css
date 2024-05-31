@@ -11,7 +11,7 @@ body {
 /* header */
 header {
   width: 100vw;
-  padding: 25px 0;
+  padding: 28px 0;
 
   background: url("./assets/image2.png"),
     linear-gradient(rgba(0, 0, 0, 0.98), #013850ee 60%, rgb(0, 0, 0, 0.99));
@@ -68,7 +68,7 @@ header button:hover {
   cursor: pointer;
 }
 
-/* primeiro setor do main */
+/* iniciando main */
 main {
   width: 100vw;
 
@@ -81,10 +81,11 @@ main {
   justify-content: center;
 }
 
+/* primeiro setor do main */
 main #section1 {
   width: 45%;
 
-  padding: 25px 0;
+  padding: 80px 0;
   gap: 20px;
 
   display: flex;
@@ -123,4 +124,24 @@ main #section1 {
   border-radius: 57px;
 
   color: #fff;
+}
+
+/* segundo setor do main */
+main #section2 {
+  width: 100vw;
+  height: 25vw;
+
+  background: url("./assets/image3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+#section2 h1 {
+  margin: 0 0 0 13%;
+
+  font-size: 45px;
+  text-shadow: 3px 2px 0px #33a8db;
 }
