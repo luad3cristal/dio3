@@ -145,3 +145,26 @@ main #section2 {
   font-size: 45px;
   text-shadow: 3px 2px 0px #33a8db;
 }
+
+/* terceiro setor do main */
+main #section3 {
+  width: 100vw;
+  padding: 50px 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+#section3 h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #33a8db;
+}
+
+#section3 h4 {
+  width: 50%;
+}
