@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: black;
 }
 
 /* header */
@@ -14,7 +15,11 @@ header {
   padding: 28px 0;
 
   background: url("./assets/image2.png"),
-    linear-gradient(rgba(0, 0, 0, 0.98), #013850ee 60%, rgb(0, 0, 0, 0.99));
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    );
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -167,4 +172,31 @@ main #section3 {
 
 #section3 h4 {
   width: 50%;
+}
+
+/* rodapé */
+footer {
+  background: linear-gradient(
+    rgba(0, 0, 0) 0%,
+    rgba(51, 168, 219, 0.2) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 5px;
+  padding: 25px 0 10px;
+
+  color: white;
+}
+
+footer img {
+  width: 15%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1472b7;
 }
